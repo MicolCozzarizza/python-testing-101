@@ -6,3 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo Hello, World!
+      - run: python -c "print(f'hello, world {[x * x for x in [1, 2, 3]]}')"
